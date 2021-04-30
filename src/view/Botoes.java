@@ -15,8 +15,8 @@ public class Botoes extends JPanel {
 
 	JSlider sliderE = new JSlider(5, 300, 100);
 
-	JSlider sliderCH = new JSlider(-25, 25, 1);
-	JSlider sliderCV = new JSlider(-25, 25, 1);
+	JSlider sliderCH = new JSlider(-25, 25, 0);
+	JSlider sliderCV = new JSlider(-25, 25, 0);
 
 	public Botoes() {
 		setLayout(new BoxLayout(this, BoxLayout.PAGE_AXIS));
