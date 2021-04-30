@@ -4,7 +4,6 @@ import java.awt.geom.Path2D;
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
 
-
 public class Desenho extends Path2D.Double {
 	
 	double raio;
@@ -66,6 +65,5 @@ public class Desenho extends Path2D.Double {
 	public void updateRaio(double escal) {
 		raio = escal;
 	}
-	
 
 }
